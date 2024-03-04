@@ -1,0 +1,13 @@
+
+server:
+  port: 8003
+
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
+rest:
+  api:
+    url: http://localhost:8001/auth/signin
